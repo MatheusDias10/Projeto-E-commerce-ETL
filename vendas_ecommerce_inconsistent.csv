@@ -1,0 +1,11 @@
+id_venda,data,cliente,produto,quantidade,preco_unitario,meio_pagamento,endereco_envio,estado,avaliacao
+1,2024-01-15,Alice,Produto A,3,20.5,Cartão,"Rua A, São Paulo, SP",SP,4.0
+2,2024-01-16,,Produto B,2,50.0,Boleto,"Rua B, Rio de Janeiro, RJ",RJ,3.0
+3,,Carol,Produto C,-1,15.75,,"Rua C, Belo Horizonte, MG",MG,5.0
+4,2024-01-18,Dave,Produto A,5,,Débito,,SP,2.0
+5,2024-01-19,Eve,Produto D,2,30.0,Cartão,"Rua E, Brasília, DF",DF,
+6,2024-01-20,Frank,,3,15.75,Boleto,"Rua F, Belo Horizonte, MG",,3.0
+7,2024-01-21,Grace,Produto B,4,50.0,Cartão,"Rua G, Rio de Janeiro, RJ",RJ,5.0
+8,2024-01-22,Heidi,Produto A,1,20.5,Débito,"Rua H, São Paulo, SP",SP,1.0
+9,,Ivan,Produto D,2,0.0,Cartão,"Rua I, Brasília, DF",DF,4.0
+10,2024-01-24,,Produto B,-3,50.0,Boleto,"Rua J, Rio de Janeiro, RJ",RJ,2.0
