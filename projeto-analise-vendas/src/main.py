@@ -4,9 +4,7 @@ import pandas as pd
 # Lendo o DataFrame
 df = pd.read_csv("vendas_ecommerce_inconsistent.csv")
 
-# ===================================
 # LIMPEZA E TRANSFORMAÇÃO DOS DADOS
-# ===================================
 
 # Removendo linhas com valores nulos nas colunas específicas
 df.dropna(subset=["data", "produto", "endereco_envio"], inplace=True)
@@ -22,9 +20,7 @@ df["quantidade"] = df["quantidade"].replace(-3, media_quantidade)
 media_avaliacao = df["avaliacao"].mean()
 df["avaliacao"] = df["avaliacao"].fillna(media_avaliacao)
 
-# ===================================
 # TRANSFORMAÇÃO E ANÁLISE DE DADOS
-# ===================================
 
 # 1. Criando uma nova coluna 'preco_total' a partir da quantidade e preço unitário
 df["preco_total"] = df["quantidade"] * df["preco_unitario"]
